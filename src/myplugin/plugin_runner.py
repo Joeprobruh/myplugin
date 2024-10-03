@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-import argparse, sys, os
+import argparse, sys#, os
 from typing import List
 
 def parser():
@@ -34,7 +34,7 @@ def main():
 
 	# do stuff
     PLUGIN_DIR = os.path.dirname(os.path.abspath(__file__))
-    DATA_FILE = os.path.join(PLUGIN_DIR, 'data', 'success.csv')
+    DATA_FILE = os.path.join(PLUGIN_DIR, 'data', 'success.txt')
 
     with open(DATA_FILE, 'r') as f:
         print(f.read())

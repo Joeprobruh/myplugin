@@ -114,7 +114,7 @@ This guide will walk you through the process of cloning a GitHub repository usin
 ### Step 1: Open Visual Studio Code
 1. **Launch VS Code**:
    - Locate the Visual Studio Code icon on your desktop or in your applications folder.
-   - Double-click the icon to open the application.
+   - Right-click the icon and open the application as Administrator.
 
 ### Step 2: Open a Terminal Window
 1. **Open the Terminal**:
@@ -125,10 +125,14 @@ This guide will walk you through the process of cloning a GitHub repository usin
 
 ### Step 3: Navigate to the Desired Directory
 1. **Change Directory (Optional)**:
-   - If you want to clone the repository into a specific folder, navigate to that folder using the `cd` command.
-   - For example:
+   - We are going to clone the repository to your user folder, so change directory using the `cd` command.
+   - For example, on Linux:
      ```bash
-     cd path/to/your/directory
+     cd /home/USERNAME_HERE/
+     ```
+     And on Windows:
+     ```powershell
+     cd C:\Users\USERNAME_HERE\
      ```
 
 ### Step 4: Clone the Repository
@@ -138,6 +142,10 @@ This guide will walk you through the process of cloning a GitHub repository usin
      git clone https://github.com/Joeprobruh/myplugin.git
      ```
    - This command will create a local copy of the repository in a new folder named `myplugin`.
+   - In the terminal, change directory into the repository's folder:
+     ```bash
+     cd myplugin
+     ```
 
 ### Step 5: Open the Cloned Repository
 1. **Open the Cloned Folder**:
@@ -150,7 +158,7 @@ This guide will walk you through the process of cloning a GitHub repository usin
 
 ## Conclusion
 You have successfully installed Visual Studio Code, Git, and Python on your local machine.
-You have successfully cloned the repository from GitHub using the terminal within Visual Studio Code. You can now start working on the project!
+You have successfully cloned the repository from GitHub using the terminal within Visual Studio Code. You can now start working on the project! The "docs" folder has everything you need to get started.
 
 ### Notes:
 - Be sure to check for the latest version URLs for VS Code, Git, and Python and update them in the script as necessary.
